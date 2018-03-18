@@ -1,7 +1,9 @@
 <?php
 try {
-    echo "start add word";
-    $input = "positive ADD";
+    //echo "start add word";
+    $input = "{query}";
+    //$input = "positive ADD"; //for debugging in command line
+    echo "input: $input \n";
     $inputs = explode("\\ ", $input);
     $input = implode(" ", $inputs);
 
@@ -87,6 +89,9 @@ try {
             //exit(1); // other error
             echo "Encounter Other Error when connect to YouDao Wordboook";
         }
+    }
+    else{
+      echo "Input should be in format like: [newword] ADD \n Here [newword] is the word to be aded to workbook\n";
     }
 } catch (Exception $e) {
     echo "";
