@@ -11,3 +11,17 @@
 ### 原始workflow与github工程:
 *  https://pan.baidu.com/s/1skdqQ
 *  https://github.com/dalang/alfred-workflows/tree/master/youdao-tranlator
+
+
+### Overview：
+*  yd word         中英翻译结果最丰富
+*  yd word add   加入单词本(双击打开第一个脚本文件，填入自己的网易账号密码)
+*  yd word say   英文发音(调用系统发音，自行设置系统发音)
+*  yd word open 打开有道翻译网站，查看更多例句解释
+*  shift+enter     复制到粘贴板(比较适合得到中译英的结果)
+
+
+### 感谢如下作者的工作:
+初始翻译功能开发者          ：icyleaf  <icyleaf.cn@gmail.com>
+单词本功能开发者             ：dalang, david euler
+发音和网站搜索功能开发者 ：dengo  <i@dengo.org>
