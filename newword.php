@@ -7,8 +7,8 @@ try {
 
     if (strlen($input) > 3 && substr($input, -3) == "ADD") {
         $word = substr($input, 0, -3);
-        $username = "email";     //替换成自己的网易帐号
-        $password = "encrypted_password";  //替换成自己的网易密码, 浏览器登陆时，Post到服务器端的密码，有经过js加密
+        $username = "email";     //鏇挎崲鎴愯嚜宸辩殑缃戞槗甯愬彿
+        $password = "encrypted_password";  //鏇挎崲鎴愯嚜宸辩殑缃戞槗瀵嗙爜, 娴忚鍣ㄧ櫥闄嗘椂锛孭ost鍒版湇鍔″櫒绔殑瀵嗙爜锛屾湁缁忚繃js鍔犲瘑
         $contentType = "application/x-www-form-urlencoded";
         $userAgent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.4 (KHTML, like Gecko) Chrome/22.0.1229.94 Safari/537.4";
         $body = array(
@@ -49,8 +49,8 @@ try {
 	//echo "cookie: $cookie_string \n";
 	//echo "$result \n";
 
-        // 添加单词到单词本
-	//$add_word_url = 'http://dict.youdao.com/wordbook/wordlist?action=add';
+        // 娣诲姞鍗曡瘝鍒板崟璇嶆湰
+	      //$add_word_url = 'http://dict.youdao.com/wordbook/wordlist?action=add';
         $add_word_url = 'http://dict.youdao.com/wordbook/ajax?action=addword&q='.$word;
 
         $ch = curl_init();
@@ -73,7 +73,7 @@ try {
                 //exit(0); // success
                 echo "add \"$word\" Success";
 	    }else{
-		
+
                 //exit(1); // other error
                 echo "add \"$word\" Failed: code: $code, $result2";
 	    }
