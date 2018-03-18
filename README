@@ -1,9 +1,13 @@
-ÓÐµÀ´ÊµäµÄÔö¼ÓÐÂ´Ê¹¦ÄÜµÄ½Å±¾¡£
-ÓÃÀ´Ìæ»»ÓÐµÀ´ÊµäAlfredworkflowÖÐµÄ¼ÓÈëÉú´Ê±¾µÄ½Å±¾¡£
+## æœ‰é“è¯å…¸çš„å¢žåŠ æ–°è¯åŠŸèƒ½çš„è„šæœ¬ã€‚
+ç”¨æ¥æ›¿æ¢æœ‰é“è¯å…¸Alfredworkflowä¸­çš„åŠ å…¥ç”Ÿè¯æœ¬çš„è„šæœ¬ã€‚
 
-²½Öè£º
-1.°²×°ÓÐµÀ´Êµäalfredworkflow
-2.ChromeÖÐµÇÂ½ÓÐµÀÉú´Ê±¾,Í¬Ê±´ò¿ªchromeµÄ¿ª·¢Õßµ÷ÊÔÌ¨£¬¼àÌýHTTP ÇëÇó: http://dict.youdao.com/wordbook/wordlist%3Fkeyfrom%3Dnull¡£ ÊäÈëÓÃ»§Ãû£¬ÃÜÂëµÇÂ½£¬³É¹¦µÇÂ½ºó²é¿´ÇëÇóÖÐ´øµÄ²ÎÊý¡£
-ÀïÃæµÄPost dataÖÐ°üº¬ÁËusername, password×Ö·û´®£¬ÕâÀïµÄpassword×Ö·û´®ÊÇ¾­¹ýä¯ÀÀÆ÷¿Í»§¶Ë¼òµ¥¼ÓÃÜµÄ×Ö·û´®£¬Õâ¸ö¼ÓÃÜ´®½«ÔÚµÚ4²½ÓÃµ½¡£
-3.´ò¿ªworkflow, ±à¼­¼ÓÈëÉú´Ê±¾µÄScript£¬°ÑÏîÄ¿µÄphpÎÄ¼þÖÐµÚ2ÐÐ¼°ÒÔºóµÄÄÚÈÝÈ«¿½±´£¬Ìæ»»µô workflowÖÐµÄ½Å±¾¡£
-4.¸üÐÂworkflow½Å±¾ÖÐµÄÓÃ»§Ãû£¬ÃÜÂë
+### æ­¥éª¤ï¼š
+*  1.å®‰è£…æœ‰é“è¯å…¸alfredworkflowã€‚
+*  2.Chromeä¸­ç™»é™†æœ‰é“ç”Ÿè¯æœ¬,åŒæ—¶æ‰“å¼€chromeçš„å¼€å‘è€…è°ƒè¯•å°ï¼Œç›‘å¬HTTP è¯·æ±‚: http://dict.youdao.com/wordbook/wordlist%3Fkeyfrom%3Dnullã€‚ è¾“å…¥ç”¨æˆ·åï¼Œå¯†ç ç™»é™†ï¼ŒæˆåŠŸç™»é™†åŽæŸ¥çœ‹è¯·æ±‚ä¸­å¸¦çš„å‚æ•°ã€‚
+é‡Œé¢çš„Post dataä¸­åŒ…å«äº†username, passwordå­—ç¬¦ä¸²ï¼Œè¿™é‡Œçš„passwordå­—ç¬¦ä¸²æ˜¯ç»è¿‡æµè§ˆå™¨å®¢æˆ·ç«¯ç®€å•åŠ å¯†çš„å­—ç¬¦ä¸²ï¼Œè¿™ä¸ªåŠ å¯†ä¸²å°†åœ¨ç¬¬4æ­¥ç”¨åˆ°ã€‚
+*  3.æ‰“å¼€workflow, ç¼–è¾‘åŠ å…¥ç”Ÿè¯æœ¬çš„Scriptï¼Œæ›´æ–°workflowè„šæœ¬ä¸­çš„ç”¨æˆ·åï¼Œå¯†ç ã€‚
+
+
+### åŽŸå§‹workflowä¸Žgithubå·¥ç¨‹:
+*  https://pan.baidu.com/s/1skdqQ
+*  https://github.com/dalang/alfred-workflows/tree/master/youdao-tranlator
