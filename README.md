@@ -22,6 +22,6 @@
 
 
 ### 感谢如下作者的工作:
-初始翻译功能开发者          ：icyleaf  <icyleaf.cn@gmail.com>
-单词本功能开发者             ：dalang, david euler
-发音和网站搜索功能开发者 ：dengo  <i@dengo.org>
+* 初始翻译功能开发者          ：icyleaf  <icyleaf.cn@gmail.com>
+* 单词本功能开发者             ：dalang, david euler
+* 发音和网站搜索功能开发者 ：dengo  <i@dengo.org>
