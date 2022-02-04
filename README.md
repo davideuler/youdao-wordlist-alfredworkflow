@@ -39,9 +39,9 @@
 
 ### Overview：
 *  yd word         中英翻译结果最丰富
-*     Cmd/Alt + Enter 单词发音(本地/在线)
-*     Ctrl + Enter 加入到有道生词本中
-*  shift+enter     复制到粘贴板(比较适合得到中译英的结果)
+*  Cmd/Alt + Enter 单词发音(本地/在线)
+*  Ctrl + Enter 加入到有道生词本中
+*  Shift + Enter     复制到粘贴板(比较适合得到中译英的结果)
 
 
 ### 感谢如下作者的工作:
