@@ -1,12 +1,36 @@
 ## 有道词典的增加新词功能的脚本。
 用来替换有道词典Alfredworkflow中的加入生词本的脚本。
 
+更新说明：v2.7.0
+* 可以在 MacOS Monterey 12.0 中使用, 不依赖于 /usr/bin/php 的路径。
+
 ### 步骤：
 *  1.安装有道词典alfredworkflow。
-*  2.Chrome中登陆有道生词本,同时打开chrome的开发者调试台，监听HTTP 请求: http://dict.youdao.com/wordbook/wordlist%3Fkeyfrom%3Dnull。 输入用户名，密码登陆，成功登陆后查看请求中带的参数。
-里面的Post data中包含了username, password字符串，这里的password字符串是经过浏览器客户端简单加密的字符串，这个加密串将在第4步用到。
-*  3.打开workflow, 编辑加入生词本的Script，更新workflow脚本中的用户名，密码。
+*  2.创建 php 的符号链接: sudo ln -sf `which php` /usr/local/bin/php
+*  3.打开workflow, 更新workflow脚本中的用户名，密码, appKey/Secret。
+*  4.即可输入 yd xxx 来翻译单词
 
+由于有道翻译 api 迁移到了有道智云，所以需要去有道智云进行注册然后创建应用。
+
+步骤如下:
+
+1.注册有道智云帐号
+
+  https://ai.youdao.com/
+
+2. 创建一个自然语言翻译服务
+
+  https://ai.youdao.com/fanyi-services.s
+
+3. 创建一个应用并绑定第二步创建的服务
+
+  https://ai.youdao.com/appmgr.s
+
+4. 这样就可以获得应用(appKey)和密钥(secret)了
+
+  应用详情 - 应用ID appKey, 应用密钥 secret
+
+5. 把变量填入 workflow 右上角的 [X] 点开后的配置框中
 
 ### 原始workflow与github工程:
 *  https://pan.baidu.com/s/1skdqQ
@@ -15,9 +39,8 @@
 
 ### Overview：
 *  yd word         中英翻译结果最丰富
-*  yd word add   加入单词本(双击打开第一个脚本文件，填入自己的网易账号密码)
-*  yd word say   英文发音(调用系统发音，自行设置系统发音)
-*  yd word open 打开有道翻译网站，查看更多例句解释
+*     Cmd/Alt + Enter 单词发音(本地/在线)
+*     Ctrl + Enter 加入到有道生词本中
 *  shift+enter     复制到粘贴板(比较适合得到中译英的结果)
 
 
