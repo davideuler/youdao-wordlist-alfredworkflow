@@ -8,7 +8,7 @@
 *  1.安装有道词典alfredworkflow。同时安装有 php, brew install php, brew link php。 如果提示 没有权限访问 /usr/local/sbin, 先创建目录 sudo mkdir /usr/local/sbin。
 *  2.检查 /usr/local/bin/php 文件是否存在，如果不存在， 先创建 php 的符号链接: ``` sudo ln -sf `which php` /usr/local/bin/php ```
 *  3.打开workflow, 更新workflow脚本中有道（163）的用户名，密码, 以及有道智云的 appKey/Secret。
-*  4.即可输入 yd xxx 来翻译单词； 同时可以设置工作流的快捷键，我一般设置 alt + y，在屏幕上选择词语，按快捷键即可看到翻译，再按 
+*  4.即可输入 yd xxx 来翻译单词； 同时可以设置工作流的快捷键，我一般设置 alt + y，在屏幕上选择词语，按快捷键 alt + y 即可看到翻译，再按 ctrl + enter 加入生词本。
 
 由于有道翻译 api 迁移到了有道智云，所以需要去有道智云进行注册然后创建应用。
 
