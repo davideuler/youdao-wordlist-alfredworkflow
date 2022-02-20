@@ -6,7 +6,7 @@
 
 ### 步骤：
 *  1.安装有道词典alfredworkflow。
-*  2.创建 php 的符号链接: sudo ln -sf `which php` /usr/local/bin/php
+*  2.创建 php 的符号链接: ``` sudo ln -sf `which php` /usr/local/bin/php ```
 *  3.打开workflow, 更新workflow脚本中的用户名，密码, appKey/Secret。
 *  4.即可输入 yd xxx 来翻译单词
 
