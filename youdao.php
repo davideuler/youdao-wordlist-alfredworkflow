@@ -8,6 +8,9 @@ $keys = [
 ];
 
 $translator = new YoudaoTranslate($keys);
-echo $translator->translate($argv[1]);
+
+$arguments = array_slice($argv, 1);
+$keyword = implode(" ", $arguments);
+echo $translator->translate($keyword);
 
 ?>
