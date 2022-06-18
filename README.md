@@ -1,8 +1,11 @@
 ## 有道词典的增加新词功能的脚本。
 用来替换有道词典Alfredworkflow中的加入生词本的脚本。
 
-更新说明：v2.7.0
-* 可以在 MacOS Monterey 12.0 中使用, 不依赖于 /usr/bin/php 的路径。
+
+
+更新说明：
+* v2.8.0 Bugfix: 支持翻译短语。
+* v2.7.0 可以在 MacOS Monterey 12.0 中使用, 不依赖于 /usr/bin/php 的路径。
 
 ### 步骤：
 *  1.安装有道词典alfredworkflow。同时安装有 php, brew install php, brew link php。 如果提示 没有权限访问 /usr/local/sbin, 先创建目录 sudo mkdir /usr/local/sbin。
